@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                                  /* גרסת ה-JS שתיווצר בסוף */
+    "module": "NodeNext",                                /* צורת ייבוא הקבצים המקובלת ב-Node.js */
+    "rootDir": "./src",                                  /* איפה נמצא קוד המקור שלנו */
+    "outDir": "./dist",                                 /* לאן הקוד המקומפל ילך (חשוב ל-Docker) */
+    "moduleResolution": "NodeNext",                          /* איך למצוא ספריות בתוך node_modules */
+    "esModuleInterop": true,                             /* מאפשר ייבוא חלק של ספריות כמו Prisma */
+    "forceConsistentCasingInFileNames": true,            /* מניעת שגיאות כתיב בשמות קבצים */
+    "strict": true,                                      /* בדיקת טיפוסים קפדנית (מקצועי!) */
+    "skipLibCheck": true                                 /* אל תבדוק שגיאות בתוך הספריות עצמן */
+  },
+  "include": ["src/**/*"],                               /* תבדוק רק קבצים שנמצאים בתוך src */
+  "exclude": ["node_modules"]                            /* תתעלם מתיקיית הספריות */
+}
