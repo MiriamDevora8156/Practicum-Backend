@@ -1,6 +1,6 @@
 # 🎮 Practicum Backend Game System
 
-[cite_start]This project is a backend assessment task focused on **Data Modeling**, **Business Logic**, and **Containerization**.
+This project is a backend assessment task focused on **Data Modeling**, **Business Logic**, and **Containerization**.
 
 ---
 
